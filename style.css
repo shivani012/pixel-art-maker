@@ -1,0 +1,16 @@
+
+.Palette{
+    border: 1px solid grey;
+    padding: 5px;
+}
+.OPalette{
+    display: flex ;
+    flex-direction: row;
+}
+.CPalette{
+    display: flex;
+    border: 2px solid black;
+}
+.boxDiv{
+    border: 2px solid yellow;
+}
