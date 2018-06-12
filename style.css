@@ -1,7 +1,13 @@
-
+.Main{
+    display: flex;
+    flex-direction: column;
+    border: 10px solid black;
+}
 .Palette{
-    border: 1px solid grey;
+    border: 1px solid lightgrey;
     padding: 5px;
+    display: flex;
+    align-content: center;
 }
 .OPalette{
     display: flex ;
@@ -9,8 +15,15 @@
 }
 .CPalette{
     display: flex;
+    align-content: center;
+    align-content: space-evenly;
     border: 2px solid black;
 }
 .boxDiv{
     border: 2px solid yellow;
+    border-radius: 10px;
+    padding: 10px;
+    display: flex;
+
+
 }
